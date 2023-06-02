@@ -12,7 +12,7 @@ def store_text_as_csv(text, output_file):
             writer.writerow([line])
 
 
-pdf_path = 'C:/Users/Jan/Documents/Projekte/SchulenNRW/sozialindexstufen_der_einzelschulen.pdf'
+pdf_path = 'C:/xxx/Documents/Projekte/SchulenNRW/sozialindexstufen_der_einzelschulen.pdf'
 
 # Open the PDF file
 with open(pdf_path, 'rb') as pdf_file:
